@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>ASURA - Web Launcher</title>
+    <meta name="viewport" content="width=512" />
+  </head>
+  <body>
+    <canvas id="pyxel-canvas" width="512" height="512"></canvas>
+    <script src="pyxel.js"></script>
+    <script>
+      pyxel_run({
+        canvas_id: "pyxel-canvas",
+        pyxapp_url: "Primitive.pyxapp",
+        packages: ["numpy"],
+        gamepad: true
+      });
+    </script>
+  </body>
+</html>
